@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "nanocore",
+  "version": "${version}",
+  "name": "NANOCORE: Living Technology",
+  "description": "Nanotechnology core: living armor, nano weapons, wings, swarm and adaptive evolution.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.nanocore.Nano"],
+    "client": ["com.nanocore.client.NanoClient"]
+  },
+  "mixins": ["nanocore.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

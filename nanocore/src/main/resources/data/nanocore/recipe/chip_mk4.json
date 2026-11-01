@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NEN",
+    "EHE",
+    "NEN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "E": {
+      "item": "minecraft:echo_shard"
+    },
+    "H": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "id": "nanocore:chip_mk4",
+    "count": 1
+  }
+}
